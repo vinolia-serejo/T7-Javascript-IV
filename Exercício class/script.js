@@ -29,37 +29,37 @@ botaoBordaRoxa.desenharBotao();
 const botaoRoxoplus = new Botao('roxo', 'grande', '+ default', 'borda-roxa');
 botaoRoxoplus.desenharBotao();
 
-const botaoDisabled = new Botao('disabled', 'grande', 'disabled', 'sem-borda');
-botaoDisabled.desenharBotao();
-botaoDisabled.desenharBotao();
+// const botaoDisabled = new Botao('disabled', 'grande', 'disabled', 'sem-borda');
+// botaoDisabled.desenharBotao();
+// botaoDisabled.desenharBotao();
 
-const botaoDisabledBorda = new Botao('disabled-white', 'grande', 'disabled', 'borda-cinza');
-botaoDisabledBorda.desenharBotao();
+// const botaoDisabledBorda = new Botao('disabled-white', 'grande', 'disabled', 'borda-cinza');
+// botaoDisabledBorda.desenharBotao();
 
-const botaoDisabledPlus = new Botao('disabled', 'grande', '+ disabled', 'sem-borda');
-botaoDisabledPlus.desenharBotao();
+// const botaoDisabledPlus = new Botao('disabled', 'grande', '+ disabled', 'sem-borda');
+// botaoDisabledPlus.desenharBotao();
 
 
 // PEQUENOS
 
-const botaoRoxoPequeno = new Botao('roxo', 'pequeno', 'default', 'sem-borda');
-botaoRoxoPequeno.desenharBotao();
+// const botaoRoxoPequeno = new Botao('roxo', 'pequeno', 'default', 'sem-borda');
+// botaoRoxoPequeno.desenharBotao();
 
-const botaoLilasPequeno = new Botao('lilas', 'pequeno', 'default', 'sem-borda');
-botaoLilasPequeno.desenharBotao();
+// const botaoLilasPequeno = new Botao('lilas', 'pequeno', 'default', 'sem-borda');
+// botaoLilasPequeno.desenharBotao();
 
-const botaoBordaRoxaPequeno = new Botao('branco', 'pequeno', 'default', 'borda-roxa');
-botaoBordaRoxaPequeno.desenharBotao();
+// const botaoBordaRoxaPequeno = new Botao('branco', 'pequeno', 'default', 'borda-roxa');
+// botaoBordaRoxaPequeno.desenharBotao();
 
-const botaoRoxoplusPequeno = new Botao('roxo', 'pequeno', '+ default', 'borda-roxa');
-botaoRoxoplusPequeno.desenharBotao();
+// const botaoRoxoplusPequeno = new Botao('roxo', 'pequeno', '+ default', 'borda-roxa');
+// botaoRoxoplusPequeno.desenharBotao();
 
-const botaoDisabledPequeno = new Botao('disabled', 'pequeno', 'disabled', 'sem-borda');
-botaoDisabledPequeno.desenharBotao();
-botaoDisabledPequeno.desenharBotao();
+// const botaoDisabledPequeno = new Botao('disabled', 'pequeno', 'disabled', 'sem-borda');
+// botaoDisabledPequeno.desenharBotao();
+// botaoDisabledPequeno.desenharBotao();
 
-const botaoDisabledBordaPequeno = new Botao('disabled-white', 'pequeno', 'disabled', 'borda-cinza');
-botaoDisabledBordaPequeno.desenharBotao();
+// const botaoDisabledBordaPequeno = new Botao('disabled-white', 'pequeno', 'disabled', 'borda-cinza');
+// botaoDisabledBordaPequeno.desenharBotao();
 
-const botaoDisabledPlusPequeno = new Botao('disabled', 'pequeno', '+ disabled', 'sem-borda');
-botaoDisabledPlusPequeno.desenharBotao();
+// const botaoDisabledPlusPequeno = new Botao('disabled', 'pequeno', '+ disabled', 'sem-borda');
+// botaoDisabledPlusPequeno.desenharBotao();

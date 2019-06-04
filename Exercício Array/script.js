@@ -27,3 +27,35 @@ btn.addEventListener ('click', function(event){
     }
 })
 
+// document.getElementById("form-do-role").addEventListener("submit", function(event){
+//     // Tira a ação padrão de submit com preventDefault
+//     event.preventDefault()
+//     // limpamos o nosso status (caso tenha alguma mensagem lá)
+//     document.getElementById("status").innerHTML = ""
+//     if(document.getElementById("nome").classList.contains("is-valid")){
+//       document.getElementById("nome").classList.remove("is-valid")
+//     }
+//     if(document.getElementById("nome").classList.contains("is-invalid")){
+//       document.getElementById("nome").classList.remove("is-invalid")
+//     }
+//     // pegamos o valor do campo
+//     const valorCampo = document.getElementById("nome").value
+    
+//     // precisamos validar o valor do valorCampo, caso esteja vazio
+//     // ou não seja do tipo String
+//     // caso tudo der sucesso, imprime a mensage pro usuário
+//     // senão imprime o erro
+//     // para isso usaremos o try catch, try executa funções
+//     // caso dentro delas dtenha um throw, irá cair no catch
+//     try{
+//       validacao(valorCampo)
+//       exibirNome(valorCampo)
+//       console.log("sucesso")
+//     }catch(erro){
+//       // caso deu algum problema enquanto as funções do bloco try era 
+//       // executado, irá cair aqui no catch e vamos imprimir o erro
+//       console.log("ops!")
+//       document.getElementById("status").innerHTML = erro
+//       document.getElementById("nome").classList.add("is-invalid")
+//     }
+//   })
