@@ -42,17 +42,24 @@ const getData = url => {
 }
 cepInput.addEventListener("blur", () =>{
     const valorDoCampo = cepInput.value 
-    if (valorDoCampo
-        ){
-        getData(`https://viacep.com.br/ws/${valorDoCampo}/json/`)
-    .then(resultadoAPI => {
+    if (valorDoCampo){
+    //     getData(`https://viacep.com.br/ws/${valorDoCampo}/json/`)
+    // .then(resultadoAPI => {
+        fetch(`https://viacep.com.br/ws/${valorDoCampo}/json/`)
+        .then(res => {
+            console.log(res)
+            return res.json()
+        })    
+        .then((resultadoAPI) => { 
         cepInput.classList.remove("error")
+        cepError.innerHTML = " "
+        cepInput.value = resultadoAPI.cep
         logradouroInput.value = resultadoAPI.logradouro
         complementoInput.value = resultadoAPI.complemento
         bairroInput.value = resultadoAPI.bairro
         localidadeInput.value = resultadoAPI.localidade
         ufInput.value = resultadoAPI.uf
-    })
+   })
     .catch(erro => {
         cepInput.classList.add("error")
         cepError.innerHTML = erro
